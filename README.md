@@ -36,18 +36,17 @@ python main.py
 ## Estructura del proyecto
 
 ```
-gestor_financiero/
-├── domain/
-│   ├── transaction.py      # Modelo de datos (dataclass inmutable)
-│   └── exceptions.py       # Excepciones del dominio
-├── services/
-│   ├── finance_service.py  # Lógica de negocio y métricas
-│   └── repository.py       # Persistencia JSON
-├── ui/
-│   └── app.py              # Interfaz gráfica (tkinter)
-└── data/
-    └── historial.json      # Generado automáticamente
-main.py                     # Entry point
+## Estructura del proyecto
+
+
+├── transaction.py       # Modelo de datos (dataclass inmutable)
+├── repository.py        # Persistencia JSON
+├── finance_service.py   # Lógica de negocio y métricas
+├── app.py               # Interfaz gráfica (tkinter)
+├── main.py              # Entry point
+├── requirements.txt
+└── .gitignore
+
 ```
 
 ---
