@@ -1,4 +1,36 @@
-.venv/
+# Python
 __pycache__/
-data/historial.json
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Datos generados por la app
+gestor_financiero/data/historial.json
+
+# Exportaciones CSV generadas por el usuario
+*.csv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Distribución
+dist/
+build/
+*.egg-info/
+
+# Archivos de práctica
 probar_*
+data/historial.json
